@@ -11,6 +11,21 @@
       border: 1px solid black;
       overflow: hidden;
     }
+
+    #logo {
+      -webkit-animation-duration: 1s;
+      -webkit-animation-name: move_logo_inward;
+      -webkit-transform: translate(10px, 10px);
+    }
+
+    @-webkit-keyframes move_logo_inward {
+      from {
+        -webkit-transform: translate(-200px, 10px);
+      }
+      to {
+        -webkit-transform: translate(10px, 10px);
+      }
+    }
   </style>
 </head>
 <body>
