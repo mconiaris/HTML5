@@ -1,0 +1,42 @@
+#adspace {
+  margin: 0 auto;
+  width: 750px;
+  height: 150px;
+  border: 1px solid black;
+  overflow: hidden;
+}
+
+#logo {
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: 3;
+  -webkit-animation-name: move_logo_inward;
+  -webkit-transform: translate(10px, 10px);
+}
+
+@-webkit-keyframes move_logo_inward {
+  from {
+    -webkit-transform: translate(-200px, 10px);
+  }
+  to {
+    -webkit-transform: translate(10px, 10px);
+  }
+}
+
+#colorific {
+  margin: 0 auto;
+  width: 750px;
+  height: 150px;
+  border: 1px solid black;
+  overflow: hidden;
+  -webkit-animation: pulse 10s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+
+  100% {
+    background-color: #FF4136;
+  }
+}
