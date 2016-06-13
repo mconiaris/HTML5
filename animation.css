@@ -46,7 +46,7 @@
 #stretching {
   margin: 0 auto;
   width: 750px;
-  height: 750px;
+  height: 150px;
   background-color: red;
   border: 1px solid black;
   overflow: hidden;
