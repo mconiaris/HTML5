@@ -78,10 +78,15 @@
   }
 }
 
-#circle {
+#circle-div {
   margin: 0 auto;
   width: 750px;
   height: 150px;
+}
+
+#circle {
+  height: 50px;
+  width: 50px;
   background-color: red;
   animation: pulse 3s ease infinite alternate,
   nudge 5s linear infinite alternate;
@@ -93,9 +98,9 @@
     transform: translate(0,0);
   }
   50% {
-    transform: translate(150px, 0);
+    transform: translate(750px, 0);
   }
   80% {
-    transform: translate(-150px, 0);
+    transform: translate(-750px, 0);
   }
 }
