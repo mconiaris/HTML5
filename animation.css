@@ -77,3 +77,25 @@
     background-color: yellow;
   }
 }
+
+#circle {
+  margin: 0 auto;
+  width: 750px;
+  height: 150px;
+  background-color: red;
+  animation: pulse 3s ease infinite alternate,
+  nudge 5s linear infinite alternate;
+  border-radius: 100%;
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0,0);
+  }
+  50% {
+    transform: translate(150px, 0);
+  }
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
